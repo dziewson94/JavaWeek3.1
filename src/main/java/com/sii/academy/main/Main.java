@@ -20,7 +20,7 @@ public class Main {
         var seondHuman = new Human(); // Jest i Ewa. Cheat god activated. new Earth()(  () -> Creation.execute()).start())
         var firstBoat = new Boat(ThreadLocalRandom.current().nextInt(0, 300));
         var secondBoat = new Boat(ThreadLocalRandom.current().nextInt(0, 300));
-        var godsTruck = new Truck(299792458) {
+        var godsTruck = new Vehicle(299792458) {
             @Override
             public void move() {
                 System.out.printf("I am something more than only super truck. " +
